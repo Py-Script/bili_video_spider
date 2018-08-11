@@ -30,17 +30,17 @@ python3 bili_video_get.py
 
 ### 代码部分
 
-![](img\5.png)
+![](img/5.png)
 
 
 
 ### 运行结果截图(出现各种403,或访问权限不足请不要在意)
 
-![](img\4.png)
+![](img/4.png)
 
 #### 保存本地结果
 
-![](img\1.png)
+![](img/1.png)
 
 
 
@@ -48,7 +48,7 @@ python3 bili_video_get.py
 
 通过浏览器打开网页url,打开`开发者工具`(F12),点击`Network`,点击`JS`,刷新(F5),找到 `api`地址
 
-![](img\2.png)
+![](img/2.png)
 
 复制下来，去除没必要的内容，得到 <https://api.bilibili.com/x/web-interface/archive/stat?aid=15906633> ，用浏览器打开，会得到如下的 json 数据
 
@@ -76,7 +76,7 @@ python3 bili_video_get.py
 
 所以通过 访问 `api`,得到数据,解析,然后保存到数据库或者保存到本地......我差不多爬了半天左右,出去吃个饭回来看了看,逛了一个某乎,然后电脑就蓝屏了.....数据就没爬完,打算放Linux下爬,由于这个脚本只在`Windows10`上测试过,在其他环境测试请自己动手改一下保存`本地地址`......
 
-![](img\3.png)
+![](img/3.png)
 
 # 免责申明
 
